@@ -1,0 +1,43 @@
+Results of lin_svc:
+
+lin_svc pos precision: 0.857142857143
+lin_svc pos recall: 0.844660194175
+lin_svc pos F-measure: 0.850855745721
+lin_svc neg precision: 0.837563451777
+lin_svc neg recall: 0.850515463918
+lin_svc neg F-measure: 0.843989769821
+lin_svc accuracy: 1.0
+
+
+Results of rbf_svc:
+
+rbf_svc pos precision: 0.813953488372
+rbf_svc pos recall: 0.849514563107
+rbf_svc pos F-measure: 0.83135391924
+rbf_svc neg precision: 0.832432432432
+rbf_svc neg recall: 0.79381443299
+rbf_svc neg F-measure: 0.812664907652
+rbf_svc accuracy: 1.0
+
+
+Results of svc:
+
+svc pos precision: 0.843902439024
+svc pos recall: 0.839805825243
+svc pos F-measure: 0.841849148418
+svc neg precision: 0.830769230769
+svc neg recall: 0.835051546392
+svc neg F-measure: 0.832904884319
+svc accuracy: 1.0
+
+
+Results of poly_svc:
+
+poly_svc pos precision: None
+poly_svc pos recall: 0.0
+poly_svc pos F-measure: None
+poly_svc neg precision: 0.485
+poly_svc neg recall: 1.0
+poly_svc neg F-measure: 0.653198653199
+poly_svc accuracy: 1.0
+
