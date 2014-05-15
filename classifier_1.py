@@ -33,11 +33,15 @@ f = open(doc_file, 'wb')
 pickle.dump(documents, f)
 f.close()
   ## sotore the training and testing set permanently by Pickle
+  ## the resaon why I store "documents" in the hard disk is that I need to make you all of the following
+  ## adjusted methods use the same train and test sets
+  ## so I will pickle.load "documents.data" in other methods
 
 all_words = nltk.FreqDist(w.lower() for w in movie_reviews.words())
   ## movie_reviews.words() contains all the tokens appear in all the movie descriptions, which has 1583820 tokens
   ## at fisrt we make all the tokens as lowercase
-  ## nltk.FreqDist(['love', 'love', 'romantic', 'NY']) will return a generic Python Dictionary which has descend order by the value
+  ## nltk.FreqDist(['love', 'love', 'romantic', 'NY']) will return a generic Python Dictionary
+  ## which has descend order by the value
   ## {'love': 2, 'romantic': 1, 'NY': 1}
   ## so all_words here is also a generic Python Dicionary
 
